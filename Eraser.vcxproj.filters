@@ -27,4 +27,7 @@
     <None Include="README.md" />
     <None Include="SP6FirmEraser.exe" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="docimg\eraser.png" />
+  </ItemGroup>
 </Project>
