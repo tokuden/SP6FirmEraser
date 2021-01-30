@@ -24,6 +24,7 @@
     <ProjectGuid>{29b25912-37a0-40ea-a6cc-bc3ce4bdcb3a}</ProjectGuid>
     <RootNamespace>Eraser</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>SP6FirmEraser</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -146,6 +147,9 @@
     <Library Include="tkusb_vc.lib" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\SP6FirmEraser.exe" />
+    <None Include="..\tkusb.dll" />
+    <None Include="README.md" />
     <None Include="tkusb.dll" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

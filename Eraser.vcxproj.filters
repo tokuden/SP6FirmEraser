@@ -24,5 +24,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="tkusb.dll" />
+    <None Include="..\SP6FirmEraser.exe" />
+    <None Include="..\tkusb.dll" />
+    <None Include="README.md" />
   </ItemGroup>
 </Project>
