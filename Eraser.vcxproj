@@ -73,7 +73,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)\..\</OutDir>
+    <OutDir>$(SolutionDir)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -147,9 +147,8 @@
     <Library Include="tkusb_vc.lib" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\SP6FirmEraser.exe" />
-    <None Include="..\tkusb.dll" />
     <None Include="README.md" />
+    <None Include="SP6FirmEraser.exe" />
     <None Include="tkusb.dll" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
